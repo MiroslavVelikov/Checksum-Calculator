@@ -77,7 +77,7 @@ public class CommandLineOptions {
             System.exit(1);
         }
 
-        return null; // Will never reach here because of System.exit
+        return null;
     }
 
     public String getPath() {
