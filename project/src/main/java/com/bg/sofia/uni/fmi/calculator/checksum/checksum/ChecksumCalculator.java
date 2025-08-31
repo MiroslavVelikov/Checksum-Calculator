@@ -1,4 +1,4 @@
-package main.java.com.bg.sofia.uni.fmi.calculator.checksum.model.checksum;
+package main.java.com.bg.sofia.uni.fmi.calculator.checksum.checksum;
 
 import java.io.InputStream;
 

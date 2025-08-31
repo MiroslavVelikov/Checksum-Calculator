@@ -1,4 +1,4 @@
-package main.java.com.bg.sofia.uni.fmi.calculator.checksum.model.cli;
+package main.java.com.bg.sofia.uni.fmi.calculator.checksum.cli;
 
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.CommandLineParser;

@@ -1,4 +1,4 @@
-package main.java.com.bg.sofia.uni.fmi.calculator.checksum.model.utils;
+package main.java.com.bg.sofia.uni.fmi.calculator.checksum.utils;
 
 public class BytesToHex {
 
