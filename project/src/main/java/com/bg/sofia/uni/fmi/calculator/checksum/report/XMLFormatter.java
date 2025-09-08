@@ -25,7 +25,7 @@ public class XMLFormatter implements ReportFormatter {
             stringBuilder.append(" ".repeat(INDENTATION_ITEM_INFO)).append(String.format("<mode>%s</mode>\n", MODE));
             stringBuilder.append(" ".repeat(INDENTATION_ITEM_INFO)).append(String.format("<checksum>%s</checksum>\n", file.getChecksum()));
             stringBuilder.append(" ".repeat(INDENTATION_ITEM_INFO)).append(String.format("<path>%s</path>\n", file.getPath()));
-            stringBuilder.append(" ".repeat(INDENTATION_ITEM_INFO)).append(String.format("<size>%f</size>\n", file.getSize()));
+            stringBuilder.append(" ".repeat(INDENTATION_ITEM_INFO)).append(String.format("<size>%d</size>\n", file.getSize()));
 
             stringBuilder.append(" ".repeat(INDENTATION_ITEM)).append("</item>\n");
         } else if (node instanceof DirectoryNode dir) {
